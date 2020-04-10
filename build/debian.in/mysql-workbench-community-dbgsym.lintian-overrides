@@ -1,2 +1,0 @@
-# not every library was build with debug info
-mysql-workbench-community-dbgsym: debug-file-with-no-debug-symbols *

@@ -1,8 +1,0 @@
-ln -s build/debian .
-
-DEB_BUILD_OPTIONS=debug dpkg-buildpackage
-
-if [ $? -eq 2 ]; then
-	exit 2
-fi
-exit 0
